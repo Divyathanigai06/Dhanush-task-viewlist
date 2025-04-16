@@ -8,4 +8,8 @@ import { TaskViewComponent } from './taskview/taskview.component';
   imports: [CommonModule, TaskViewComponent],
   template: `<app-task-view></app-task-view>`
 })
-export class AppComponent {}
+export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+}
